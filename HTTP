@@ -7,3 +7,5 @@ Earlier web page was all about: HTML(format to represent content), HTTP(protocol
   Additional cache control mechanisms were introduced.
   Content negotiation, including language, encoding, and type, was introduced. A client and a server could now agree on which content to exchange.
   Thanks to the Host header, the ability to host different domains from the same IP address allowed server collocation.(HOST is server address)
+4. HTTP(2.0): binary protocol rather than a text protocol. multiplexed protocol(parallel request for same connection)
+5. HTTP(3.0) runs on UDP instead of TCP saving latency
